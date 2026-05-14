@@ -1,0 +1,25 @@
+{
+	"name": "vite8",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"build": "vite build",
+		"build-storybook": "storybook build"
+	},
+	"devDependencies": {
+		"@chromatic-com/storybook": "catalog:",
+		"@storybook/addon-a11y": "catalog:",
+		"@storybook/addon-docs": "catalog:",
+		"@storybook/addon-svelte-csf": "catalog:",
+		"@storybook/sveltekit": "catalog:",
+		"@sveltejs/adapter-node": "catalog:",
+		"@sveltejs/kit": "catalog:",
+		"@sveltejs/vite-plugin-svelte": "catalog:",
+		"@types/node": "catalog:",
+		"storybook": "catalog:",
+		"svelte": "catalog:",
+		"svelte-check": "catalog:",
+		"vite": "8.0.12"
+	}
+}

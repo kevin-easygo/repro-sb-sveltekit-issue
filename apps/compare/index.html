@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Repro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="width-full h-screen grid grid-cols-2 grid-rows-2 gap-4">
+    <div class="h-full flex flex-col">
+      <h1 class="text-2xl font-bold mb-4">Vite 7 - Storybook</h1>
+      <iframe
+        class="w-full h-full"
+        src="http://localhost:6006/iframe.html?id=repro--bug&viewMode=story"
+        title="Vite 7 Storybook"
+      ></iframe>
+    </div>
+    <div class="h-full flex flex-col">
+      <h1 class="text-2xl font-bold mb-4">Vite 8 - Storybook</h1>
+      <iframe
+        class="w-full h-full"
+        src="http://localhost:6007/iframe.html?id=repro--bug&viewMode=story"
+        title="Vite 8 Storybook"
+      ></iframe>
+    </div>
+    <div class="h-full flex flex-col">
+      <h1 class="text-2xl font-bold mb-4">Vite 7 - App</h1>
+      <iframe
+        class="w-full h-full"
+        src="http://localhost:6008"
+        title="Vite 7 App"
+      ></iframe>
+    </div>
+    <div class="h-full flex flex-col">
+      <h1 class="text-2xl font-bold mb-4">Vite 8 - App</h1>
+      <iframe
+        class="w-full h-full"
+        src="http://localhost:6009"
+        title="Vite 8 App"
+      ></iframe>
+    </div>
+  </body>
+</html>
